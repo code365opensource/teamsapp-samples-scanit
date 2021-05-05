@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+div.ui-flex {
+  padding: 20px;
+}
+
+div.ui-flex > * {
+  margin-top: 15px;
+}
+
+div.ui-flex > .ui-list {
+  border: 1px solid rgb(243, 242, 242);
+}
